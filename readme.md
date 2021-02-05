@@ -5,8 +5,8 @@ Bring some taint back into your search results.
 ## Features
 
 Currently, post searches on Danbooru exclude deleted posts by default, unless
-a `status:` term is specified. **Recontaminant** effects the opposite
-behaviour, so deleted posts will be *included* by default.
+a `status:` term is specified. **Recontaminant** is a webextension which applies the opposite
+behaviour, so deleted posts will instead be *included* by default.
 
 This is achieved by automatically adding `status:any` to your search expression
 whenever no other `status:` terms are present in the expression.
