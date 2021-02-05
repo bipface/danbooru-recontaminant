@@ -1,0 +1,19 @@
+﻿{
+	"description" : "",
+	"manifest_version" : 2,
+	"name" : "Danbooru Recontaminant",
+	"version" : "2021.2.5",
+	"homepage_url" : "https://github.com/bipface/",
+
+	"browser_specific_settings" : {
+		"gecko" : {
+			"id" : "danbooru-recontaminant@bipface.cf"}},
+
+	"permissions" : [
+		"webRequest",
+		"webRequestBlocking",
+		"*://*.donmai.us/*"],
+	
+	"background" : {
+		"scripts" : ["background.js"]}
+}
