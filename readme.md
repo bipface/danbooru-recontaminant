@@ -14,7 +14,7 @@ See the following examples:
 
 Expression entered | Search performed
 --- | ---
-`` | `status:any`
+` ` | `status:any`
 `solo` | `solo status:any`
 `rating:q` | `rating:q status:any`
 `status:pending` | `status:pending`
